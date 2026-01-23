@@ -11,4 +11,17 @@ void main() {
   print(inputString);
   print(inputInt);
   print(inputDouble);
+
+  //Konversi kembali
+  var intToDouble = inputInt.toDouble();
+  var doubleToInt = inputDouble.toInt();
+
+  var intToString = inputInt.toString();
+  var doubleToString = inputDouble.toString();
+
+  print(intToDouble);
+  print(doubleToInt);
+
+  print(intToString);
+  print(doubleToString);
 }

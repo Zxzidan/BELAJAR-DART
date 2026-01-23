@@ -7,6 +7,7 @@ void main() {
   // Mengubah dari string ke double
   var inputDouble = double.parse(inputString);
 
+  // Untuk Menampilakn gambar
   print(inputString);
   print(inputInt);
   print(inputDouble);

@@ -10,4 +10,7 @@ void main() {
 
   number = 200;
   print(number);
+
+  number = 156.10;
+  print(number);
 }

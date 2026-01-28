@@ -29,14 +29,12 @@ void main() {
   name[2] = 'ifa';
   print(name[2]);
 
- // Untuk menghapus data
+  // Untuk menghapus data
   name.removeAt(3);
   print(name);
 
   // Deklarasi list secara langsung
-  var namaMahasiswa = <String>[
-    ' dandi', 'randi', 'budi' 
-  ];
+  var namaMahasiswa = <String>['dandi', 'randi', 'budi'];
 
   print(namaMahasiswa);
 }
